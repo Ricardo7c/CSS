@@ -22,4 +22,4 @@ Crie uma página com um fundo de imagem e use `background-position` para posicio
 
 ## **Exercício 6: Transparência**
 
-Crie um parágrafo com **fundo semi-transparente**. Use a propriedade `opacity` para definir um valor de 0.5 (50% de transparência).
+Crie um parágrafo com **semi-transparente**. Use a propriedade `opacity` para definir um valor de 0.5 (50% de transparência).
