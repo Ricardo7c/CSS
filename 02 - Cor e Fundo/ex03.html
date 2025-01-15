@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de Fundo - Cover vs Contain</title>
+    <style>
+        /* Definindo a imagem de fundo para o corpo da página */
+        body {
+            background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg);
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh; /* Garante que a imagem cubra toda a altura da tela */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para o primeiro parágrafo com cover */
+        p.cover {
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            height: 50%; /* Define a altura do parágrafo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+        }
+
+        /* Estilo para o segundo parágrafo com contain */
+        p.contain {
+            background-size: contain;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            height: 50%; /* Define a altura do parágrafo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+        }
+    </style>
+</head>
+<body>
+    <p class="cover">Este parágrafo usa background-size: cover.</p>
+    <p class="contain">Este parágrafo usa background-size: contain.</p>
+</body>
+</html>

@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamanho da Imagem</title>
+    <title>Página com Imagem de Fundo</title>
     <style>
+        /* Definindo a imagem de fundo para o corpo da página */
         body {
             background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center center;
+            margin: 0;
+            height: 100vh; /* Garante que a imagem cubra toda a altura da tela */
+            color: white; /* Cor do texto para contraste */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para o parágrafo */
+        p {
+            text-align: center;
+            font-size: 24px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o texto */
         }
     </style>
 </head>
 <body>
-    
+    <p>Este é um exemplo de página com uma imagem de fundo que cobre toda a área.</p>
 </body>
 </html>
