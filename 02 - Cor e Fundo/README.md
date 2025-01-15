@@ -10,7 +10,7 @@ Crie uma página com um parágrafo de texto e defina uma imagem de fundo. A imag
 
 ## **Exercício 3: Ajustando o Tamanho da Imagem**
 
-Crie uma página com um fundo de imagem. Use `background-size` para ajustar a imagem de fundo ao tamanho da página, utilizando os valores **cover** e **contain** em dois parágrafos diferentes.
+Crie uma página com um fundo de imagem. Use `background-size` para ajustar a imagem de fundo ao tamanho da página, utilizando os valores **cover**
 
 ## **Exercício 4: Repetição de Imagem de Fundo**
 
