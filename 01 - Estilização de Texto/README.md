@@ -1,7 +1,5 @@
 # Estilização de Texto
 
----
-
 ## **Exercício 1: Personalizando um Parágrafo**
 
 Crie um parágrafo de texto que atenda aos seguintes requisitos de estilização:
