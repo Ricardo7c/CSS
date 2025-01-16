@@ -2,11 +2,13 @@
 
 ## **Exercício 1: Definindo largura e altura**
 
-Crie uma página com um `div` centralizado que tenha largura de `300px`, altura de `200px`, e cor de fundo azul claro.
+Crie uma página com um `div` centralizado que tenha largura de `300px`, altura de `200px`, cor de fundo azul claro e borda preta.
+
+**DICA:** Use as propriedades display: flex;, justify-content: center; e align-items: center; para facilitar a centralização. Além disso, não se esqueça de configurar height: 100vh; para o corpo da página.
 
 ## **Exercício 2: Definindo limites de tamanho**
 
-Crie um elemento `div` com largura inicial de `50%`, `min-width` de `200px` e `max-width` de `800px`. Adicione um texto dentro dele e teste a responsividade redimensionando a janela do navegador.
+Crie um elemento `div` com altura de `200px`, largura inicial de `50%`, `min-width` de `200px` e `max-width` de `800px`. Adicione uma cor de fundo, um texto de cor contrastante e teste a responsividade redimensionando a janela do navegador.
 
 ## **Exercício 3: Trabalhando com margens**
 
