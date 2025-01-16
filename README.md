@@ -1,8 +1,6 @@
 # CSS
 
-Fixando o conhecimento sobre as propriedades de um arquivo CSS
-
----
+Fixando o conhecimento sobre as propriedades básicas do CSS.
 
 ## **1. Propriedades de Estilização de Texto**
 
@@ -19,8 +17,6 @@ Definem a aparência de textos em uma página.
 - **`letter-spacing`**: Controla o espaçamento entre caracteres.
 - **`word-spacing`**: Define o espaçamento entre palavras.
 
----
-
 ## **2. Propriedades de Cor e Fundo**
 
 Controlam as cores e os fundos dos elementos.
@@ -31,8 +27,6 @@ Controlam as cores e os fundos dos elementos.
 - **`background-repeat`**: Define se a imagem de fundo deve ser repetida.
 - **`background-position`**: Posiciona a imagem de fundo.
 - **`opacity`**: Controla a transparência do elemento.
-
----
 
 ## **3. Propriedades de Layout e Caixa**
 
@@ -47,8 +41,6 @@ Manipulam a posição, o tamanho e o espaçamento de elementos.
 - **`box-shadow`**: Adiciona sombra ao elemento.
 - **`overflow`**: Define como o conteúdo extra é tratado (hidden, scroll, etc.).
 
----
-
 ## **4. Propriedades de Posicionamento**
 
 Controlam a posição dos elementos na página.
@@ -58,8 +50,6 @@ Controlam a posição dos elementos na página.
 - **`z-index`**: Define a ordem de empilhamento dos elementos.
 - **`float`**: Posiciona um elemento à esquerda ou direita.
 - **`clear`**: Controla o comportamento após elementos flutuantes.
-
----
 
 ## **5. Propriedades de Flexbox**
 
@@ -72,8 +62,6 @@ Facilitam o layout de elementos flexíveis.
 - **`align-content`**: Alinha linhas extras em um contêiner flexível.
 - **`flex-wrap`**: Controla a quebra de linha dos itens flexíveis.
 
----
-
 ## **6. Propriedades de Grid Layout**
 
 Gerenciam layouts baseados em grade.
@@ -84,8 +72,6 @@ Gerenciam layouts baseados em grade.
 - **`grid-area`**: Define uma área específica na grade para um item.
 - **`justify-items`** e **`align-items`**: Alinham itens individuais dentro de células da grade.
 
----
-
 ## **7. Propriedades de Responsividade**
 
 Ajudam a criar layouts adaptáveis.
@@ -93,8 +79,6 @@ Ajudam a criar layouts adaptáveis.
 - **`@media`**: Define estilos específicos para tamanhos de tela ou dispositivos.
 - **`max-width` e `min-width`**: Controlam quando as regras se aplicam.
 - **`aspect-ratio`**: Define a proporção entre largura e altura.
-
----
 
 ## **8. Propriedades de Transição e Animação**
 
@@ -104,15 +88,11 @@ Adicionam efeitos de transição ou animação.
 - **`animation`**: Define animações personalizadas.
 - **`keyframes`**: Especifica os passos de uma animação.
 
----
-
 ## **9. Propriedades de Cursor**
 
 Controlam o cursor ao passar sobre elementos.
 
 - **`cursor`**: Define o estilo do cursor (pointer, default, crosshair, etc.).
-
----
 
 ## **10. Propriedades Obsoletas**
 
