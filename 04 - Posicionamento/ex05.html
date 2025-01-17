@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+
+        div#primeira {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500px;
+            height: 500px;
+            background-color: blueviolet;
+            z-index: 1;
+        }
+
+        div#segunda {
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="primeira"></div>
+    <div id="segunda"></div>
+</body>
+</html>
