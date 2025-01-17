@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativando Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row; /* Eixo principal é horizontal */
+            align-items: stretch; /* Altere este valor para testar: flex-start, center, stretch */
+            justify-content: space-around; /* Espalha os itens no eixo principal */
+            height: 300px;
+            width: 800px;
+            background-color: wheat;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 150px; /* Largura fixa */
+            background-color: orange;
+        }
+
+        .box1 {
+            height: 100px; /* Altura variável */
+        }
+
+        .box2 {
+            height: 150px;
+        }
+
+        .box3 {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</body>
+</html>
