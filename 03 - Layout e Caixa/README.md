@@ -2,9 +2,7 @@
 
 ## **Exercício 1: Definindo largura e altura**
 
-Crie uma página com um `div` centralizado que tenha largura de `300px`, altura de `200px`, cor de fundo azul claro e borda preta.
-
-**DICA:** Use as propriedades display: flex;, justify-content: center; e align-items: center; para facilitar a centralização. Além disso, não se esqueça de configurar height: 100vh; para o corpo da página.
+Crie uma página com um `div` que tenha largura de `300px`, altura de `200px`, cor de fundo azul claro e borda preta.
 
 ## **Exercício 2: Definindo limites de tamanho**
 
@@ -40,11 +38,3 @@ Crie um `div` com um conteúdo maior que seu tamanho visível. Use a propriedade
 - `hidden`: O conteúdo extra é ocultado.
 - `scroll`: Barras de rolagem aparecem.
 - `auto`: As barras aparecem apenas quando necessário.
-
-## **Exercício 8: Combinação de Propriedades**
-
-Crie uma página com:
-
-- Um contêiner que tenha largura de `70%`, altura de `300px`, centralizado na página.
-- Cor de fundo laranja e sombra aplicada.
-- Texto centralizado dentro do contêiner com espaçamento interno (`padding`) de `20px`.
