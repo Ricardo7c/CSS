@@ -1,49 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Align-Content Example</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center; /* Centraliza o contêiner horizontalmente */
-      align-items: center;    /* Centraliza o contêiner verticalmente */
-      min-height: 100vh;      /* Altura total da tela */
-      margin: 0;
-    }
-    .container {
-      display: flex;
-      flex-wrap: wrap;       /* Permite que os itens quebrem para a próxima linha */
-      align-content: flex-start; /* Altere para flex-start, center, ou space-between */
-      width: 100%;          /* Largura do contêiner */
-      height: 100%;         /* Altura do contêiner */
-      border: none;
-    }
-    .item {
-      width: 150px;
-      height: 100px;
-      background-color: #4CAF50;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 5px;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Galeria</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px; /* Espaçamento entre as imagens */
+            padding: 10px;
+        }
+        .container img {
+            border-radius: 8px; /* Adiciona bordas arredondadas */
+        }
+
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-  </div>
+    <div class="container">
+        <img src="https://picsum.photos/id/1/200/300">
+        <img src="https://picsum.photos/id/2/200/300">
+        <img src="https://picsum.photos/id/3/200/300">
+        <img src="https://picsum.photos/id/4/200/300">
+        <img src="https://picsum.photos/id/5/200/300">
+        <img src="https://picsum.photos/id/6/200/300">
+        <img src="https://picsum.photos/id/7/200/300">
+        <img src="https://picsum.photos/id/8/200/300">
+        <img src="https://picsum.photos/id/9/200/300">
+        <img src="https://picsum.photos/id/10/200/300">
+        <img src="https://picsum.photos/id/11/200/300">
+        <img src="https://picsum.photos/id/12/200/300">
+    </div>
 </body>
 </html>

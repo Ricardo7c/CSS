@@ -31,15 +31,7 @@ Crie um contêiner com três caixas de alturas diferentes. Use `align-items` par
 
 Crie um contêiner com várias caixas e aplique `flex-wrap` para que os itens quebrem de linha quando necessário. Teste com e sem `flex-wrap` para observar a diferença.
 
-## **Exercício 6: Linhas Extras**
-
-Crie um contêiner flexível com várias linhas de itens. Use `align-content` para alinhar as linhas:
-
-1. No início (`flex-start`).
-2. No centro (`center`).
-3. Com espaçamento igual entre as linhas (`space-between`).
-
-## **Exercício 7: Layout de Galeria**
+## **Exercício 6: Layout de Galeria**
 
 Crie uma galeria de imagens usando Flexbox:
 
